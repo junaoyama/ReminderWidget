@@ -48,6 +48,8 @@ struct RemindWidgetEntryView : View {
 
     var body: some View {
         VStack {
+            Text("こんにちは")
+            
             Text("Time:")
             Text(entry.date, style: .time)
 
